@@ -1,0 +1,5 @@
+before_install: make dep
+language: c
+compiler: clang
+script: make test
+sudo: required
